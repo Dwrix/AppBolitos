@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AppBolitos</string>
+    <string name="op1">Informate</string>
+    <string name="op2">Tiendas</string>
+    <string name="op3">Como Aportar</string>
+    <string name="info">Informate</string>
+    <string name="Volver1">Volver</string>
+    <string name="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus a ligula interdum accumsan.
+        PASO 1: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        PASO 2: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        PASO 3: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    </string>
+    <string name="Tiendas">Tiendas</string>
+    <string name="Volver2">Volver</string>
+    <string name="parrafo2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus a ligula interdum accumsan.
+        PASO 1: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        PASO 2: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        PASO 3: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    </string>
+    <string name="Volver3">Volver</string>
+    <string name="Titulo">AppBolitos</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="email">E-mail</string>
+    <string name="imagenlogo">Imagen Logo</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="hacerloMasTarde">Hacerlo mas tarde</string>
+    <string name="olvideMiContrasena">Olvide mi Contraseña</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ejemploCorreo">example@correo.com</string>
+    <string name="ejemploPassword">********</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Denunciar">Denunciar</string>
+    <string name="Correo">Planeta.gol@gmail.com</string>
+    <string name="Apellidos">Suazo Pontivo</string>
+    <string name="Nombres">Humberto Andrés</string>
+    <string name="imgComoAportar">Como Aportar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

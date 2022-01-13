@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Opcion 1</item>
+        <item>Opcion 2</item>
+        <item>Opcion 3</item>
+        <item>Opcion 4</item>
+
+    </string-array>
+
+    <string-array name="Tiendas">
+        <item>Tienda 1</item>
+        <item>Tienda 2</item>
+        <item>Tienda 3</item>
+        <item>Tienda 4</item>
+
+    </string-array>
+    <string-array name="Certificados">
+        <item>Certificado 1</item>
+        <item>Certificado 2</item>
+        <item>Certificado 3</item>
+    </string-array>
+    
+    
+</resources>

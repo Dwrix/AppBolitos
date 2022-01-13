@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <!---sdsd-->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="204dp"
+        android:contentDescription="@string/imagenlogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appbolitosimg" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="117dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/imagenlogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoappbolitos" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="476dp"
+        android:onClick="openRegistro"
+        android:text="@string/registrarse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="476dp"
+        android:onClick="buscarUserValido"
+        android:text="@string/iniciar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="312dp"
+        android:ems="10"
+        android:hint="@string/ejemploCorreo"
+        android:inputType="textEmailAddress"
+        android:textColor="#0B0B0B"
+        android:textColorHint="#8D8989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="90dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="292dp"
+        android:text="@string/email"
+        android:textColor="#030303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="376dp"
+        android:text="@string/contrasena"
+        android:textColor="#0B0B0B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="266dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="396dp"
+        android:ems="10"
+        android:hint="@string/ejemploPassword"
+        android:inputType="textPassword"
+        android:textColor="#020202"
+        android:textColorHint="#8A8A8A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="66dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="564dp"
+        android:onClick="openPaginaPrincipal"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/tvHacerloMasTarde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="624dp"
+        android:text="@string/hacerloMasTarde"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="616dp"
+        android:text="@string/ayuda"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOlvidePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="536dp"
+        android:text="@string/olvideMiContrasena"
+        android:textColor="#111111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

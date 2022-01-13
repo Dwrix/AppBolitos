@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Nombre: "
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtNombre"
+                        android:text="Nombre aca"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Especie: "
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtEspecie"
+                        android:text="Especie aca"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Ubicacion: "
+                        android:textColor="#4CAF50"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/txtUbicacion"
+                        android:text="Ubicacion aca"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
